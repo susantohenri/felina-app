@@ -1,0 +1,140 @@
+body>#wrapper {
+	display: none;
+}
+
+img[src*="booknetic/icons/icon-"] {
+	display: inline !important;
+}
+
+#accordion button:hover,
+#accordion button:focus,
+#accordion button:active,
+#accordion .button:hover,
+#accordion .button:focus,
+#accordion .button:active,
+#accordion .wp-block-button__link:hover,
+#accordion .wp-block-button__link:focus,
+#accordion .wp-block-button__link:active,
+#accordion input[type="button"]:hover,
+#accordion input[type="button"]:focus,
+#accordion input[type="button"]:active,
+#accordion input[type="reset"]:hover,
+#accordion input[type="reset"]:focus,
+#accordion input[type="reset"]:active,
+#accordion input[type="submit"]:hover,
+#accordion input[type="submit"]:focus,
+#accordion input[type="submit"]:active {
+	background: transparent !important;
+}
+
+.wp-block-image {
+	margin-top: 0;
+}
+
+.lingoni-podcast-image-adjuster {
+	height: 420px;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+@media screen and (max-width: 768px) {
+	.lingoni-podcast-image-adjuster {
+		height: auto;
+	}
+}
+
+.entry {
+	box-shadow: 0 10px 23px rgb(0 0 0 / 12%) !important;
+	padding: 25px;
+}
+
+.quiz_answer_container span,
+.results_container .ld-quiz-actions,
+.quiz_list_question_answers .question_answer {
+	float: none !important;
+}
+
+.mdp-contacter-start-btn-icon svg {
+	width: 18px;
+	height: 18px;
+	fill: rgba(255, 255, 255, 1);
+}
+
+.controls__progress.gap-progress,
+.pin.progress__pin {
+	background: #2d3748 !important;
+}
+
+.mdp-send-rec-btn {
+	display: none;
+}
+
+.mdp-send-btns {
+	margin-top: 10px;
+}
+
+.wp-block-audio {
+	margin-bottom: 0;
+}
+
+.wp-block-audio audio {
+	min-width: 200px !important;
+}
+
+#divQuizMilestone {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	#divQuizMilestone {
+		max-width: 100%;
+	}
+}
+
+#divQuizMilestone.de [type="button"],
+#divQuizMilestone.de .step-counter,
+#divQuizMilestone.de .wpProQuiz_progress {
+	background-color: #4391b7 !important;
+}
+
+#divQuizMilestone.fr [type="button"],
+#divQuizMilestone.fr .step-counter,
+#divQuizMilestone.fr .wpProQuiz_progress {
+	background-color: #0C7F94 !important;
+}
+
+#divQuizMilestone.en [type="button"],
+#divQuizMilestone.en .step-counter,
+#divQuizMilestone.en .wpProQuiz_progress {
+	background-color: #6692C4 !important;
+}
+
+.top_side_menu {
+	display: none;
+}
+
+.main_wrapper {
+	padding-top: 0px;
+}
+
+.dashboard-date-filter {
+	appearance: none;
+	background: #6C70DC;
+	color: #FFFFFF;
+	padding: 10px 0px;
+	text-align: center;
+	width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+	.top_side_menu {
+		display: block;
+	}
+
+	.main_wrapper {
+		padding-top: 80px;
+	}
+}
